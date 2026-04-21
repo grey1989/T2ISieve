@@ -99,6 +99,3 @@ Text-to-image (T2I) diffusion models are widely adopted, with many users and ins
 - LLM-assisted screening requires proper API or local model configuration.
 - Most of the backdoor models used in this paper can be downloaded from the comparative literature T2IShield, while other backdoor models can be downloaded from their respective GitHub.
 
-## Acknowledgments
-
-This project draws significant inspiration and references from T2IShield and DAA. We extend our gratitude to the authors and contributors of these works for their foundational contributions to the field of backdoor detection in text-to-image models.
