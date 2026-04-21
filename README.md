@@ -4,6 +4,13 @@
 
 Text-to-image (T2I) diffusion models are widely adopted, with many users and institutions downloading publicly released models from third-party platforms for deployment. However, these models are vulnerable to backdoor attacks, where adversaries manipulate outputs using embedded triggers. To ensure the secure use of publicly available T2I diffusion models, this paper proposes T2ISieve, a framework designed to detect backdoors and localize triggers in backdoored models. Specifically, we first detect the attention shift phenomenon, which indicates that the attention in T2I diffusion models subjected to backdoor attacks undergoes abnormal shifts. Thus, self-attention sieve and cross-attention sieve are designed to capture this phenomenon for lightweight backdoor detection. Furthermore, we integrate large language models (LLMs) with tailored prompts to develop an LLM sieve for precise trigger localization. For backdoor attacks with subtle attention shifts, we further propose T2ISieve++, which employs a trained backdoor detector to identify highly stealthy attacks.
 
+## Workflow
+
+![Workflow Diagram](workflow.png)
+
+## The difference between T2ISieve and T2ISieve++.
+![T2ISieve++ Diagram](T2ISieve++.png)
+
 ## Main Features
 
 - **Backdoor Detection**: Automatically identifies potential trigger words and abnormal patterns by analyzing self-attention and cross-attention matrices.
